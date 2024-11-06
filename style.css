@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(77, 121, 42);
+    color: white;
+    font-family: "Noto Serif Oriya", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 1%;
+    padding-top: 4%;
+}
+
+button {
+    background-color: rgb(74, 175, 128);
+    color: white;
+    font-family: "Noto Serif Oriya", serif;
+    height: 30px;
+    padding-top: 4px;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: left;
+    max-width: 90%;
+    max-height: 99.9%;
+}
+
+img {
+    max-width: 50%;
+}
